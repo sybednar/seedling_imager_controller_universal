@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Usage:
-#   ./git_update.sh -m "Commit message" [-v v1.0.0] [-b main] [-r]
+#   ./git_update.sh -m "Commit message" [-v v0.06] [-b main] [-r]
 #
 # Options:
 #   -m   Commit message (required)
-#   -v   Version tag (optional, e.g., v1.0.0). Creates an annotated tag and pushes it.
+#   -v   Version tag (optional, e.g., v0.06). Creates an annotated tag and pushes it.
 #   -b   Branch name (default: main)
 #   -r   Skip auto-rebase (by default we rebase onto origin/<branch> before push)
 #
@@ -20,9 +20,8 @@ usage() {
 Usage: $0 -m <commit_message> [-v <version_tag>] [-b <branch>] [-r]
 
 Examples:
-  $0 -m "v1.0.0: universal scaling, CENTER_BACKOFF_FRAC, AE gate, non-blocking focus read" -v v1.0.0
-  $0 -m "Fix: motor homing edge case on W=23" -b main
-  $0 -m "Feat: ArUco fiducial mask in experiment_runner" -v v1.1.0
+  $0 -m "v0.06: dual-stream camera, TIFF, AF, File Manager w/ thumbnails, CSV, Camera Config, autostart & desktop launcher" -v v0.06
+  $0 -m "Fix: LED live view toggle + AF settle trigger" -b main
 
 Options:
   -m   Commit message (required)
@@ -57,12 +56,6 @@ REPO_DIR="/home/sybednar/Seedling_Imager/seedling_imager_controller"
 
 if [[ ! -d "$REPO_DIR/.git" ]]; then
     echo "Error: $REPO_DIR is not a Git repository."
-    echo "To initialise and connect to the new remote, run:"
-    echo "  cd $REPO_DIR"
-    echo "  git init"
-    echo "  git remote add origin https://github.com/sybednar/seedling_imager_controller_universal.git"
-    echo "  git add -A && git commit -m 'v1.0.0: initial universal release'"
-    echo "  git push -u origin main"
     exit 1
 fi
 
@@ -81,6 +74,7 @@ git ls-files --others --exclude-standard || true
 
 echo
 echo "== Short diff (staged/untracked preview) =="
+# show a compact patch summary; doesn't fail the script
 git diff --stat || true
 
 echo
@@ -110,6 +104,8 @@ if [[ "$skip_rebase" == "false" ]]; then
     echo
     echo "== Rebase onto origin/$branch =="
     if git rev-parse --verify "origin/$branch" >/dev/null 2>&1; then
+        # Rebase local commits on top of the latest remote branch tip.
+        # If conflicts occur, exit with guidance.
         set +e
         git rebase "origin/$branch"
         rebase_rc=$?
@@ -141,6 +137,7 @@ fi
 
 echo
 echo "== Push branch to origin/$branch =="
+# If push rejects due to non-fast-forward (shouldn't after rebase), print guidance.
 set +e
 git push origin "$branch"
 push_rc=$?
