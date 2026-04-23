@@ -1,4 +1,4 @@
-#gui.py
+#gui.py fixing image rescaling issue during experimental run
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
     QTextEdit, QDialog, QSizePolicy
@@ -63,7 +63,10 @@ class SeedlingImagerGUI(QWidget):
         base_btn_h = 30
         height_scale  = 1.25
         button_height = int(base_btn_h * height_scale * s)  # ~1.5x taller touch targets
-      
+        # Screen dimensions used below to lock the camera preview to a fixed size
+        _screen_w = geom.width() if geom else int(800 * s)
+        _screen_h = geom.height() if geom else int(480 * s)
+        
         self.threads = []
         self.experiment_thread = None
         self.homing_worker = None  # <-- abortable homing worker
@@ -208,10 +211,14 @@ class SeedlingImagerGUI(QWidget):
         self.camera_label = QLabel("Camera Preview")
         self.camera_label.setAlignment(Qt.AlignCenter)
  
-        # Let preview expand to fill available space — scaled for current display
-        self.camera_label.setMinimumSize(int(400 * s), int(225 * s))
-        self.camera_label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
- 
+        # Lock the camera label to a fixed size so Qt's layout engine can never
+        # change its dimensions between experiment snapshots.  Without this, the
+        # label's sizeHint shifts when the log panel receives long save-path text,
+        # causing the preview image to drift position and scale on System 1.
+        _cam_w = int((_screen_w - button_width) * 0.95)
+        _cam_h = int(_screen_h * 0.55)
+        self.camera_label.setFixedSize(_cam_w, _cam_h) 
+
         self.log_panel = QTextEdit()
         self.log_panel.setReadOnly(True)
  
@@ -589,7 +596,25 @@ class SeedlingImagerGUI(QWidget):
     def toggle_live_view(self):
         """UI button handler: toggle live view on/off."""
         self.set_live_view(not self.live_view_active)
- 
+
+    def _set_preview_pixmap(self, pixmap: QPixmap):
+        """
+        Scale pixmap to fill camera_label with center-crop, preventing layout side-effects.
+        KeepAspectRatioByExpanding without cropping returns a pixmap LARGER than the label,
+        which inflates the label's sizeHint and shifts the layout on the 800x480 display.
+        Cropping to the exact label size before setPixmap() keeps the label size stable.
+        """
+        lw = self.camera_label.width()
+        lh = self.camera_label.height()
+        if lw < 2 or lh < 2:
+            return
+        scaled = pixmap.scaled(lw, lh, Qt.KeepAspectRatioByExpanding, Qt.SmoothTransformation)
+        if scaled.width() > lw or scaled.height() > lh:
+            x = (scaled.width()  - lw) // 2
+            y = (scaled.height() - lh) // 2
+            scaled = scaled.copy(x, y, lw, lh)
+        self.camera_label.setPixmap(scaled)
+
     def show_experiment_snapshot(self, plate_idx: int):
         """
         During an experiment, show a single low-res snapshot (lores) at the start
@@ -602,17 +627,10 @@ class SeedlingImagerGUI(QWidget):
         frame = camera.get_frame()
         if frame.isNull():
             return
- 
+
         pixmap = QPixmap.fromImage(frame)
- 
-        # Fill the preview widget area; crop overflow (center-crop) while preserving aspect ratio
-        scaled = pixmap.scaled(
-            self.camera_label.size(),
-            Qt.KeepAspectRatioByExpanding,
-            Qt.SmoothTransformation
-        )
-        self.camera_label.setPixmap(scaled)
- 
+        self._set_preview_pixmap(pixmap)
+         
         # Optional: make it explicit what the user is seeing
         self.status_label.setText(f"Plate #{plate_idx} (snapshot)")
  
@@ -620,16 +638,9 @@ class SeedlingImagerGUI(QWidget):
         frame = camera.get_frame()
         if frame.isNull():
             return
- 
+
         pixmap = QPixmap.fromImage(frame)
- 
-        # Fill the entire preview widget; crop overflow (center crop) while keeping aspect ratio
-        scaled = pixmap.scaled(
-            self.camera_label.size(),
-            Qt.KeepAspectRatioByExpanding,
-            Qt.SmoothTransformation
-        )
-        self.camera_label.setPixmap(scaled)
+        self._set_preview_pixmap(pixmap)
  
     def open_camera_config(self):
         # Camera pipeline stays running while the dialog is open so that:

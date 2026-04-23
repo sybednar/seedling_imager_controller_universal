@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════════════════════════
-# SEEDLING IMAGER CONTROLLER — UNIVERSAL VERSION  v0.08
+# SEEDLING IMAGER CONTROLLER — UNIVERSAL VERSION  v1.0.0
 # Auto-scales GUI: 800×480 original display (s=1.0) ↔ 1280×720 Display2 (s=1.6)
 # Features: dual 940 nm IR illumination, manual focus (7.589 D), tabbed Camera
 # Config, AE stability gate, GT2 belt drive with dynamic bracket homing,
