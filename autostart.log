@@ -355,3 +355,2066 @@ XDG_RUNTIME_DIR=/run/user/1000
 [motor] Bracket: CW -> LOW (re-validate leading)
 [motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
 === Wed Apr 22 12:36:35 PM CDT 2026 Seedling Imager autostart end ===
+=== Wed Apr 22 04:46:45 PM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1121
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1195
+SSH_AUTH_SOCK=/tmp/ssh-if17FQS2MnUw/agent.1121
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[4:51:18.547804790] [3499] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[4:51:18.555088420] [3505] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[4:51:18.555884202] [3505] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[4:51:18.555899313] [3505] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[4:51:18.557671433] [3505] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[4:51:18.564304468] [3505] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[4:51:18.564718525] [3505] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[4:51:18.564731859] [3505] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[4:51:18.567824023] [3499] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[4:51:18.567927357] [3505] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 398 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+=== Wed Apr 22 10:18:25 PM CDT 2026 Seedling Imager autostart end ===
+=== Thu Apr 23 11:36:01 AM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=16ae5b4b532c431fb7bad38c96572bb1
+JOURNAL_STREAM=9:5994
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1121
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1143
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:07.961079013] [1679] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:07.968364772] [1690] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:07.969162772] [1690] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:07.969175031] [1690] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:07.970910902] [1690] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:07.977481568] [1690] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:07.977926606] [1690] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:07.977937735] [1690] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:00:07.981679328] [1679] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:07.981791754] [1690] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=23, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=23)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 397 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+=== Thu Apr 23 11:51:15 AM CDT 2026 Seedling Imager autostart end ===
+=== Thu Apr 23 11:52:55 AM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1144
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1217
+SSH_AUTH_SOCK=/tmp/ssh-T8ZPTPQCIiBL/agent.1144
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[0:17:00.164226991] [2329] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:17:00.171467680] [2335] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:17:00.172297868] [2335] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:17:00.172310683] [2335] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:17:00.174106059] [2335] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:17:00.180595728] [2335] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:17:00.181005414] [2335] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:17:00.181013914] [2335] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:17:00.184147628] [2329] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:17:00.184246517] [2335] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 389 µsteps from hall
+[motor] Window width W=25, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=25)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+=== Thu Apr 23 11:54:36 AM CDT 2026 Seedling Imager autostart end ===
+=== Thu Apr 23 11:54:38 AM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1144
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1217
+SSH_AUTH_SOCK=/tmp/ssh-T8ZPTPQCIiBL/agent.1144
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[0:18:43.451292570] [2440] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:18:43.458468095] [2446] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:18:43.459249620] [2446] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:18:43.459261231] [2446] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:18:43.461029635] [2446] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:18:43.467513560] [2446] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:18:43.467927249] [2446] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:18:43.467937342] [2446] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:18:43.471038313] [2440] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:18:43.471139128] [2446] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 397 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 389 µsteps from hall
+[motor] Window width W=24, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=23, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=23)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+=== Thu Apr 23 01:38:46 PM CDT 2026 Seedling Imager autostart end ===
+=== Thu Apr 23 01:57:44 PM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1144
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1217
+SSH_AUTH_SOCK=/tmp/ssh-T8ZPTPQCIiBL/agent.1144
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[2:21:49.338582012] [2829] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[2:21:49.345773755] [2835] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[2:21:49.346556296] [2835] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[2:21:49.346564666] [2835] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[2:21:49.348293324] [2835] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[2:21:49.354801933] [2835] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[2:21:49.355210991] [2835] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[2:21:49.355219176] [2835] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[2:21:49.358320526] [2829] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[2:21:49.358418730] [2835] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 388 µsteps from hall
+[motor] Window width W=25, center offset C=12
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=25)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 391 µsteps from hall
+[motor] Window width W=23, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=23)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=24)
+=== Thu Apr 23 02:52:50 PM CDT 2026 Seedling Imager autostart end ===
+=== Tue Apr 28 12:28:28 PM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=720989bc46be4e12b2415159408427a9
+JOURNAL_STREAM=9:6973
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1110
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1140
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:07.775739790] [1677] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:07.782998550] [1683] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:07.783781864] [1683] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:07.783793438] [1683] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:07.785575142] [1683] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:07.792080827] [1683] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:07.792503179] [1683] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:07.792514957] [1683] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
+[0:00:07.795671142] [1677] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:07.795766031] [1683] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+=== Tue Apr 28 08:40:22 PM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=c927af42e9ff4f9fa932ef7519d4066d
+JOURNAL_STREAM=9:823
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1088
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1110
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:11.925449454] [1434] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:11.933479879] [1749] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:11.934313194] [1749] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:11.934331583] [1749] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:11.936295546] [1749] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:11.943511324] [1749] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:11.944321102] [1749] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:11.944358342] [1749] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:00:11.948257565] [1434] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:11.948639139] [1749] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 401 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[camera] Manual focus locked: 9.045 diopters
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 394 µsteps from hall
+[motor] Window width W=13, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=13)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+=== Wed Apr 29 12:45:45 AM CDT 2026 Seedling Imager autostart end ===
+=== Wed Apr 29 12:45:48 AM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1109
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1192
+SSH_AUTH_SOCK=/tmp/ssh-qMWTs2FBRuRQ/agent.1109
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[0:05:10.686757565] [2219] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:05:10.694326884] [2225] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:05:10.695119018] [2225] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:05:10.695135685] [2225] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:05:10.696964343] [2225] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:05:10.703529638] [2225] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:05:10.703943696] [2225] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:05:10.703954048] [2225] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:05:10.707088769] [2219] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:05:10.707192528] [2225] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=13, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=13)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 393 µsteps from hall
+[motor] Window width W=13, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=13)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 392 µsteps from hall
+[motor] Window width W=13, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=13)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 362 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 399 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 390 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 398 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+=== Wed Apr 29 12:58:14 AM CDT 2026 Seedling Imager autostart end ===
+=== Wed Apr 29 01:05:46 AM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1109
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1192
+SSH_AUTH_SOCK=/tmp/ssh-qMWTs2FBRuRQ/agent.1109
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[0:25:08.829058283] [2414] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:25:08.836245630] [2420] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:25:08.837051317] [2420] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:25:08.837062372] [2420] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:25:08.838866394] [2420] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:25:08.845386018] [2420] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:25:08.845802426] [2420] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:25:08.845834760] [2420] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:25:08.848938173] [2414] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:25:08.849037507] [2420] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 393 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+                                                                                                                               === Wed Apr 29 01:07:03 AM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=58fc9d2b0cc64608b719d9b6f01961ea
+JOURNAL_STREAM=9:8324
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1089
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1110
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:08.099200456] [1665] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:08.106420123] [1671] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:08.107196734] [1671] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:08.107208030] [1671] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:08.108992567] [1671] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:08.115450752] [1671] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:08.115862104] [1671] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:08.115873215] [1671] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
+[0:00:08.118965697] [1665] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:08.119067493] [1671] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+=== Wed Apr 29 11:05:24 AM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=059c181c26d047ffa7be4408dae874a5
+JOURNAL_STREAM=9:6093
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1088
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1110
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:08.023995585] [1620] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:08.031270955] [1667] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:08.032109251] [1667] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:08.032123566] [1667] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:08.033901381] [1667] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:08.040535937] [1667] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:08.040944196] [1667] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:08.040954492] [1667] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
+[0:00:08.044040770] [1620] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:08.044147548] [1667] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Abort during hall search
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=11, center offset C=5
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=11)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 384 µsteps from hall
+[motor] Window width W=11, center offset C=5
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=11)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+=== Wed Apr 29 04:51:24 PM CDT 2026 Seedling Imager autostart end ===
+=== Wed Apr 29 04:51:55 PM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=ef0dd563f171441c9c7e6f197d0a1703
+JOURNAL_STREAM=9:5023
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1089
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1112
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:07.857230365] [1663] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:07.864576291] [1669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:07.865384050] [1669] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:07.865396457] [1669] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:07.867186420] [1669] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:07.873953698] [1669] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:07.874371235] [1669] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:07.874383420] [1669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+[0:00:07.877546828] [1663] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:07.877651179] [1669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Timeout seeking hall
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Abort during hall search
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 387 µsteps from hall
+[motor] Window width W=13, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=13)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=16, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=16)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 621 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 386 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 384 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=23, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=23)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=23, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +12 µsteps to midpoint (frac=0.0, W=23)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 377 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 384 µsteps from hall
+[motor] Window width W=11, center offset C=5
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=11)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 387 µsteps from hall
+[motor] Window width W=12, center offset C=6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +6 µsteps to midpoint (frac=0.0, W=12)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 378 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Abort during hall search
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 386 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Moved to Plate #2
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Rear IR, gain_floor=1.0, exposure_floor=500µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 380 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+=== Wed Apr 29 11:06:41 PM CDT 2026 Seedling Imager autostart end ===
+=== Wed Apr 29 11:11:45 PM CDT 2026 Seedling Imager autostart begin ===
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=LXDE-pi-labwc
+DISPLAY=:0
+GDMSESSION=LXDE-pi-labwc
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+HOME=/home/sybednar
+_JAVA_AWT_WM_NONREPARENTING=1
+LABWC_FALLBACK_OUTPUT=NOOP-1
+LABWC_PID=1109
+LABWC_VER=0.8.4-dirty
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LOGNAME=sybednar
+NO_AT_BRIDGE=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+SAL_USE_VCLPLUGIN=gtk3
+SHELL=/bin/bash
+SHLVL=1
+SSH_AGENT_PID=1188
+SSH_AUTH_SOCK=/tmp/ssh-qYNJZrAcsT49/agent.1109
+TERM=xterm-256color
+TEXTDOMAIN=Linux-PAM
+USER=sybednar
+_=/usr/bin/env
+VTE_VERSION=7006
+WAYLAND_DISPLAY=wayland-0
+WLR_DRM_FORCE_LIBLIFTOFF=1
+WLR_XWAYLAND=/usr/bin/xwayland-xauth
+XAUTHORITY=/home/sybednar/.Xauthority
+XCURSOR_SIZE=24
+XCURSOR_THEME=PiXflat
+XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_DATA_DIRS=~/.local/share:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/sybednar
+XDG_MENU_PREFIX=lxde-pi-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=LXDE-pi-labwc
+XDG_SESSION_ID=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=wayland
+XDG_VTNR=7
+XKB_DEFAULT_LAYOUT=us
+XKB_DEFAULT_MODEL=pc105
+XKB_DEFAULT_OPTIONS=
+XKB_DEFAULT_VARIANT=
+---
+[6:19:56.257684634] [2902] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[6:19:56.264911450] [2908] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[6:19:56.265701787] [2908] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[6:19:56.265713306] [2908] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[6:19:56.267448444] [2908] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[6:19:56.273983774] [2908] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[6:19:56.274400610] [2908] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[6:19:56.274411573] [2908] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+[6:19:56.277540070] [2902] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[6:19:56.277639867] [2908] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[camera] Live-view IR boost disabled (restored controls)
+=== Wed Apr 29 11:11:53 PM CDT 2026 Seedling Imager autostart end ===
+=== Thu Apr 30 12:04:23 PM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=97ed97701ede449685689aeea632cca8
+JOURNAL_STREAM=9:809
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1084
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1108
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:08.134819920] [1658] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:08.142172549] [1664] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:08.142960772] [1664] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:08.142976920] [1664] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:08.144758846] [1664] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:08.151450401] [1664] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:08.151873679] [1664] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:08.151889605] [1664] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:00:08.154997290] [1658] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:08.155099346] [1664] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 386 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=19, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=19)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 386 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Abort during hall search
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 392 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[0:09:38.748405937] [1672] [1;31mERROR [1;37mIPARPI [1;34mcam_helper_imx708.cpp:262 [0mPDAF data in unsupported format
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[0:48:44.603344043] [1672] [1;31mERROR [1;37mIPARPI [1;34mcam_helper_imx708.cpp:262 [0mPDAF data in unsupported format
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 384 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 381 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[0:52:55.484532853] [1672] [1;31mERROR [1;37mIPARPI [1;34mcam_helper_imx708.cpp:262 [0mPDAF data in unsupported format
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 379 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=21, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=21)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=20, center offset C=10
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +10 µsteps to midpoint (frac=0.0, W=20)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[1:00:10.572709945] [1672] [1;31mERROR [1;37mIPARPI [1;34mcam_helper_imx708.cpp:262 [0mPDAF data in unsupported format
+[1:06:36.125614754] [1672] [1;31mERROR [1;37mIPARPI [1;34mcam_helper_imx708.cpp:262 [0mPDAF data in unsupported format
+[1:06:40.236148447] [1672] [1;31mERROR [1;37mIPARPI [1;34mcam_helper_imx708.cpp:262 [0mPDAF data in unsupported format
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 386 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 383 µsteps from hall
+[motor] Window width W=17, center offset C=8
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 382 µsteps from hall
+[motor] Window width W=18, center offset C=9
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Homing complete. Plate #1 centered.
+[camera] Live-view IR boost disabled (restored controls)
+[camera] Manual focus locked: 9.045 diopters
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +9 µsteps to midpoint (frac=0.0, W=18)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+[motor] Moved to Plate #5
+[motor] Moved to Plate #6
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +8 µsteps to midpoint (frac=0.0, W=17)
+[motor] Moved to Plate #2
+[motor] Moved to Plate #3
+[motor] Moved to Plate #4
+=== Thu Apr 30 01:22:52 PM CDT 2026 Seedling Imager autostart end ===
+=== Fri May  1 01:55:32 PM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=24f5c856ec924e19bac91da0fa253a4f
+JOURNAL_STREAM=9:5941
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1105
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1126
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:08.189417327] [1679] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:08.196696383] [1685] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:08.197478698] [1685] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:08.197491605] [1685] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:08.199264494] [1685] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:08.205707790] [1685] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:08.206116679] [1685] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:08.206124679] [1685] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+[0:00:08.209205568] [1679] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:08.209305513] [1685] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[camera] Live-view IR boost disabled (restored controls)
+=== Fri May  1 01:58:55 PM CDT 2026 Seedling Imager autostart end ===
+=== Fri May  1 02:00:17 PM CDT 2026 Seedling Imager autostart begin ===
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOME=/home/sybednar
+INVOCATION_ID=afbe4c7a38eb4aa8a4be6ce61eb0bcba
+JOURNAL_STREAM=9:9503
+LANG=en_US.UTF-8
+LANGUAGE=en_US.UTF-8
+LOGNAME=sybednar
+MANAGERPID=1082
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/sybednar/Seedling_Imager/seedling_imager_controller
+PYTHONUNBUFFERED=1
+QT_QPA_PLATFORM=wayland
+SHELL=/bin/bash
+SHLVL=1
+SYSTEMD_EXEC_PID=1103
+USER=sybednar
+_=/usr/bin/env
+XDG_RUNTIME_DIR=/run/user/1000
+---
+[0:00:07.849463791] [1653] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[0:00:07.856710939] [1659] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:720 [0mlibpisp version v1.2.1 981977ff21f3 29-04-2025 (14:13:50)
+[0:00:07.857494494] [1659] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:499 [0mNo static properties available for 'imx708_noir'
+[0:00:07.857505753] [1659] [1;33m WARN [1;37mCameraSensorProperties [1;34mcamera_sensor_properties.cpp:501 [0mPlease consider updating the camera sensor properties database
+[0:00:07.859251809] [1659] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_noir.json
+[0:00:07.865718939] [1659] [1;33m WARN [1;37mCameraSensor [1;34mcamera_sensor_legacy.cpp:501 [0;32m'imx708_noir': [0mNo sensor delays found in static properties. Assuming unverified defaults.
+[0:00:07.866126735] [1659] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:00:07.866136661] [1659] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1179 [0mRegistered camera /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
+[0:00:07.869339865] [1653] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 4608x2592-RGB888/sRGB (1) 1280x720-RGB888/sRGB (2) 4608x2592-BGGR_PISP_COMP1/RAW
+[0:00:07.869436383] [1659] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1483 [0mSensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 4608x2592-SBGGR10_1X10/RAW - Selected CFE format: 4608x2592-PC1B/RAW
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost enabled: mode=Front IR, gain_floor=8.0, exposure_floor=20000µs
+[motor] Homing started (dynamic bracket + backoff)
+[motor] Hall triggered. Measuring optical window...
+[motor] Leading (LOW) at 384 µsteps from hall
+[motor] Window width W=22, center offset C=11
+[motor] Bracket: CCW -> LOW
+[motor] Bracket: CCW -> HIGH (past leading)
+[motor] Bracket: CW -> LOW (re-validate leading)
+[motor] Bracket: CW +11 µsteps to midpoint (frac=0.0, W=22)
+[motor] Homing complete. Plate #1 centered.
+[camera] Manual focus locked: 9.045 diopters
+[camera] Live-view IR boost disabled (restored controls)
+=== Fri May  1 02:50:34 PM CDT 2026 Seedling Imager autostart end ===

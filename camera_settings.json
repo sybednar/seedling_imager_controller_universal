@@ -17,7 +17,7 @@
   "FrontIR_Sharpness": 1.15,
   "FrontIR_Brightness": 0.0,
   "RearIR_AeEnable": false,
-  "RearIR_ExposureTime": 9000,
+  "RearIR_ExposureTime": 7000,
   "RearIR_Gain": 1.0,
   "RearIR_Contrast": 1.5,
   "RearIR_Sharpness": 1.4,
